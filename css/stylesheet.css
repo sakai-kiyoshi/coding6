@@ -137,7 +137,7 @@
   -webkit-transition: .5s;
   transition: .5s;
   height: 812px;
-  background-image: url(images/SP-TOP/backimg-menu@2x.png);
+  background-image: url(../images/SP-TOP/backimg-menu@2x.png);
   background-size: 120%;
 }
 
@@ -272,7 +272,7 @@
   -webkit-transition: .5s;
   transition: .5s;
   height: 812px;
-  background-image: url(images/SP-TOP/backimg-menu@2x.png);
+  background-image: url(../images/SP-TOP/backimg-menu@2x.png);
   background-size: 120%;
 }
 
@@ -490,7 +490,7 @@
 }
 
 .company-section {
-  background-image: url(images/SP-TOP/cirlcles@2x.jpg);
+  background-image: url(../images/SP-TOP/cirlcles@2x.jpg);
 }
 
 .company-section .heading-title {
