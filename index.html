@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PON DESIGN</title>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <style>
+        /* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+    </style>
+</head>
+<body>
+    <!-- ヘッダー -->
+    <div class="header">
+        <img src="/images/SP-TOP/backimg-menu.png" alt="" class="header-img-active">
+        <a href="#" class="header-top">PON DESIGN</a>
+        <!-- ハンバーガーメニュー -->
+        <header class="header-menu">
+            <!-- ハンバーガーメニュー部分 -->
+            <div class="drawer">
+              <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+              <input type="checkbox" id="drawer-check" class="drawer-hidden" >
+          
+              <!-- ハンバーガーアイコン -->
+              <label for="drawer-check" class="drawer-open"><span></span></label>
+          
+              <!-- メニュー(SP) -->
+              <nav class="drawer-content">
+                <ul class="drawer-list">
+                  <li class="drawer-item">
+                    <a href="">NEWS</a>
+                  </li>
+                  <li class="drawer-item">
+                    <a href="">SERVICE</a>
+                  </li>
+                  <li class="drawer-item">
+                    <a href="">WORKS</a>
+                  </li>
+                  <li class="drawer-item">
+                    <a href="">COMPANY</a>
+                  </li>
+                  <li class="drawer-item">
+                    <a href="">RECRUIT</a>
+                  </li>
+                  <li class="drawer-item">
+                    <a href="">CONTACT</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+        </header>
+    
+        <!-- メニュー(PC) -->
+        <header class="header-nav">
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                    <a href="">NEWS</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="">SERVICE</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="">WORKS</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="">COMPANY</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="">RECRUIT</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- ヘッダー(スクロール) -->
+        <div class="header-scroll">
+            <a href="#">PON DESIGN</a>
+            <!-- ハンバーガーメニュー -->
+            <header class="header-menu">
+                <!-- ハンバーガーメニュー部分 -->
+                <div class="drawer">
+                    <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+                    <input type="checkbox" id="drawer-check" class="drawer-hidden" >
+                    <!-- ハンバーガーアイコン -->
+                    <label for="drawer-check" class="drawer-open"><span></span></label>
+                
+                    <!-- メニュー(SP) -->
+                    <nav class="drawer-content">
+                    <ul class="drawer-list">
+                        <li class="drawer-item">
+                        <a href="">NEWS</a>
+                        </li>
+                        <li class="drawer-item">
+                        <a href="">SERVICE</a>
+                        </li>
+                        <li class="drawer-item">
+                        <a href="">WORKS</a>
+                        </li>
+                        <li class="drawer-item">
+                        <a href="">COMPANY</a>
+                        </li>
+                        <li class="drawer-item">
+                        <a href="">RECRUIT</a>
+                        </li>
+                        <li class="drawer-item">
+                        <a href="">CONTACT</a>
+                        </li>
+                    </ul>
+                    </nav>
+                </div>
+            </header>       
+       </div> 
+
+        <!-- トップセクション -->
+        <div class="title">
+                <h1 class="title-tx">WEB<br>DESIGN<br>SPECIALIST</h1>
+                <p class="title-lead">お客様の夢を叶える<br>Webサイトを制作</p>
+            <div class="btn-contact">
+                CONTACT
+            </div>
+            <div class="scroll">
+                SCROLL
+                <div class="border">
+                    <!-- borderの擬似要素 -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NEWS -->
+    <div class="heading">
+        <h2 class="heading-title">NEWS</h2>
+        <p class="heading-lead">お知らせ</p>
+    </div>
+
+    <dl class="item-list">
+        <dt class="item-time"><time>2030.02.01</time>
+            <p class="item-deta">お知らせ</p>
+        </dt>
+        <dd class="item-note">Webデザインニュースサイト「ウェブマガジン」に取材いただきました</dd>
+    </dl>
+    <dl class="item-list">
+        <dt class="item-time"><time>2030.01.25</time>
+            <p class="item-deta">制作実績</p>
+        </dt>
+        <dd class="item-note">Smoothiesta様のWebを制作いたしました</dd>
+    </dl>
+    <dl class="item-list">
+        <dt class="item-time"><time>2030.01.20</time>
+            <p class="item-deta"><span>採用</span></p>
+        </dt>
+        <dd class="item-note">Webデザイナーを1名募集です！</dd>
+    </dl>
+  
+
+    <!-- SERVICE -->
+    <div class="heading">
+        <h2 class="heading-title">SERVICE</h2>
+        <p class="heading-lead">事業内容</p>
+   
+        <div class="service-section">
+            <img src="images\SP-TOP\service1@2x.jpg" alt="" class="service1">
+            <h3 class="heading-tx">Webサイト制作</h3>
+            <p>新規サイトはもちろん、サイトリニューアルやランディングページ制作も行っております。</p>
+            <img src="images\SP-TOP\service2@2x.jpg" alt="" class="service1">
+            <h3 class="heading-tx">Webサイト制作</h3>
+            <p>サイトの更新作業や独自のアクセス解析に基づいたサイト改善のご提案が可能です。</p>
+            <img src="images\SP-TOP\service3@2x.jpg" alt="" class="service1">
+            <h3 class="heading-tx">アプリ開発</h3>
+            <p>スマートフォンアプリの開発の他、Vue.jsやReactによるWebアプリの開発が可能です。</p>
+        </div>
+    </div>
+
+    <!-- スライダー -->
+    <ul class="slider">
+        <li><img src="images\SP-TOP\smoothiesta@2x.jpg" alt="" class="img-slide"></li>
+        <li><img src="images/SP-TOP/service1@2x.jpg" alt="" class="img-slide"></li>
+        <li><img src="images/SP-TOP/service1@2x.jpg" alt="" class="img-slide"></li>
+    </ul>    
+
+    <!-- WORKS -->
+    <div class="works-section">
+        <div class="heading">
+            <h2 class="heading-title">WORKS</h2>
+            <p class="heading-lead">制作実績</p>
+            <p class="heading-note">様々なジャンルのWebサイト制作が可能です。<br>ご購入や申し込み数の増加などを実現します！</p>
+            <a href="#" class="works-more">MORE</a>
+        </div>
+    </div>
+
+    <!-- company -->
+    <div class="company-section">
+            <div class="heading">
+                <h2 class="heading-title">COMPANY</h2>
+                <p class="heading-lead">私たちについて</p>
+
+            <div class="catch-copy">
+               　 サイトのゴール =　
+            </div>
+            <div class="catch-copy">
+                　夢を叶えること　
+            </div>
+
+            <p class="heading-note">
+                お客様の夢を叶えること。<br>
+                それがWebサイトのゴールであり、<br>
+                私たちが目指すことです。<br>
+                だからこそちゃんと成果を出すサイトを<br>
+                全力でお作りします。<br>
+                お客様の笑顔を見たい。<br>
+                夢を実現する手助けをさせてください。
+            </p>
+            <a href="#" class="company-more">MORE</a>
+        </div>
+        <img src="/images/SP-TOP/you-x-ventures-X8H8vPcelPk-unsplash@2x.jpg" alt="" class="img">
+    </div>
+
+    <!-- RECRUIT -->
+    <div class="recruit-section">
+        <div class="heading">
+            <h2 class="heading-title">RECRUIT</h2>
+            <p class="heading-lead">採用情報</p>
+            <p class="heading-note">私たちと一緒に働きませんか？</p>
+            <a href="#" class="recruit-more">MORE</a>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="contact-section">
+        <div class="heading">
+            <h2 class="heading-title">CONTACT</h2>
+            <p class="heading-lead">お問い合わせ</p>
+            <p class="heading-note">Webサイトの制作のご依頼やお見積りなど、<br>お気軽にご相談ください。</p>
+            <a href="#" class="contact-more">MORE</a>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <ul class="footer-list1">
+            <li class="footer-item">HOME</li>
+            <li class="footer-item">NEWS</li>
+            <li class="footer-item">SERVICE</li>
+            <li class="footer-item">WORKS</li>
+        </ul>
+        <ul class="footer-list2">
+            <li class="footer-item">COMPANY</li>
+            <li class="footer-item">RECRUIT</li>
+            <li class="footer-item">CONTACT</li>
+        </ul>
+
+        <small>© PON DESIGN</small>
+    </footer>
+    <script src="/js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/js/slick.min.js"></script>
+</body>
+</html>
