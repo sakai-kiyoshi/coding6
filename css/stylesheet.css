@@ -4,7 +4,7 @@
 }
 
 .header {
-  background-image: url("images/SP-TOP/hero@2x.jpg");
+  background-image: url("./images/SP-TOP/hero@2x.jpg");
   background-size: cover;
   height: 812px;
 }
