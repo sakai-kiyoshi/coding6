@@ -4,7 +4,7 @@
 }
 
 .header {
-  background-image: url("/images/SP-TOP/hero@2x.jpg");
+  background-image: url("images/SP-TOP/hero@2x.jpg");
   background-size: cover;
   height: 812px;
 }
@@ -490,7 +490,7 @@
 }
 
 .company-section {
-  background-image: url(/images/SP-TOP/cirlcles@2x.jpg);
+  background-image: url(images/SP-TOP/cirlcles@2x.jpg);
 }
 
 .company-section .heading-title {
